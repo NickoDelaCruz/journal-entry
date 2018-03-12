@@ -26,3 +26,9 @@ export function getTeaser(entry) {
   words.splice(8);
   return words.join(' ');
 }
+// 
+// export function getTitle(title) {
+//   var title = title.split(" ");
+//   title.splice(8)
+//   return title.join(' ');
+// }
