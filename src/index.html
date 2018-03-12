@@ -2,16 +2,16 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Journal</title>
   </head>
   <body>
     <center>
+      <h1>Journal</h1>
     <form id="journal-form">
-      <label for="title">Title:</label>
-      <input id="title" type="text">
-      <label for="entry">Entry:</label>
-      <input id="entry" type="textarea">
-      <button type="submit">Submit</button>
+      <input id="title" type="text" placeholder="title"><br>
+      <input id="entry" type="textarea" placeholder="entry"><br><br>
+      <button type="submit" class="btn-primary">Submit</button><br>
     </form>
     <ul id="solution"></ul>
   </center>
