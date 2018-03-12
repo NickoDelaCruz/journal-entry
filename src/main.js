@@ -13,5 +13,6 @@ $(document).ready(function() {
     $('#solution').append("<p>vowels: " + output2 + "</p>");
     $('#solution').append("<p>consts: " + output3 + "</p>");
     $('#solution').append("<p>teaser: " + output4 + "</p>");
+
   });
 });
